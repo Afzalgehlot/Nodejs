@@ -1,0 +1,125 @@
+"use strict";
+
+// Create an array with three elements and print out the second element.
+
+// let arr = [2,3,4];
+// let secondElement = arr[1];
+// console.log(secondElement);
+
+// Create an array with five elements and print out the length of the array.
+
+// let arr1 = [23,3,43,2,32];
+// console.log(arr1.length);
+
+// Create an array with four elements and print out each element using a for loop.
+
+// let printElement = [1,2,3,4];
+// for(let i=0;i<printElement.length;i++){
+//     console.log(printElement[i]);
+// }
+// Create an array with three elements and add a fourth element to the end of the array.
+
+// let arr = [1,2,3];
+// let arr1 = arr.push(4);
+// console.log(arr); 
+
+// Create an array with four elements and remove the second element.
+
+// let arr = [1,2,3,4];
+// let arr1 = arr.shift(1);
+// console.log(arr);
+
+// Create an array with five elements and remove the last element.
+
+// let arr = [1,2,3,4,5];
+// let arr1 = arr.pop()
+// console.log(arr);
+
+// Create an array with four elements and sort the array in ascending order.
+
+
+// let acending = [23,43,21,543,3,53,664];
+// const test = (val1,val2)=>{
+//     return val2-val1
+// }
+// console.log(acending.sort(test));
+
+
+// Create an array with five elements and sort the array in descending order.
+
+// let decending = [32,54,6,7,87,46,2,3,-1,-43];
+// const check = (val1 , val2) => {
+//     return val1-val2;
+// }
+// console.log(decending.sort(check));
+
+
+// wo arrays, concatenate them and print out the resulting array.
+
+    // let arr1 = [1,2,3,4];
+    // let arr2 = [5,6,7,8];
+    // let arr3 = arr1.concat(arr2);
+    // console.log(arr3);
+
+    // Create an array with three elements and convert it to a string.
+
+    // let arr = [2,3,44];
+    // let str = arr.toString();
+    // console.log(str);
+
+    // Create an array with four elements and reverse the order of the elements.
+
+    // let arr = [2,3,4,6,7,8];
+    // let reversearr = arr.reverse();
+    // console.log(reversearr);
+
+    // Create an array with five elements and find the index of a specific value.
+
+    // let arr = [2,34,56,7,8,43];
+    // console.log(arr.indexOf(3));
+
+    // Create an array with six elements and slice the array to create a new array with the first three elements.
+
+    // let arr = [1,2,3,4,5,6];
+    // let newarr = arr.slice(3);
+    // console.log(newarr);
+
+
+    // Create an array with six elements and use the map method to double each element.
+
+    // let arr = [2,3,4,5,6,7];
+    // const test = (num) => {
+    //     return num*2    
+    // };
+    // let ans = arr.map(test);
+    // console.log(ans);
+
+
+    // Create an array with four elements and use the while loop to calculate the sum of all elements.
+
+    // let arr = [2,3,4,5,6,7];
+    // let sum = 0;
+    // let i = 0;
+    // while (i<arr.length) {
+    //     sum += arr[i];
+    //     i++
+    // }
+    // console.log(sum);
+
+
+    // Create an array with five elements and use the filter method to return only the even numbers.
+
+// let arr = [1, 20, 3, 40, 5, 9, 8, 7, 10, 3, 4];
+// let ans = arr.filter(testEven);
+// function testEven(num) {
+//   return num % 2 !== 1;
+// }
+// console.log(ans);
+
+
+// Create an array with three elements and use the join method to concatenate the elements with a dash (-) separator.
+
+// let arr = [2,3,4,5,6,7];
+// let arr1 = arr.join("-");
+// console.log(arr1);
+
